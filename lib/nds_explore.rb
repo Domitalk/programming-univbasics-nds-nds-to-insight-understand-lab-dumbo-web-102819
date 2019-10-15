@@ -12,3 +12,5 @@ end
 
 def print_first_directors_movie_titles
 end
+
+new_data = directors_database
