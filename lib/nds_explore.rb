@@ -12,5 +12,5 @@ end
 
 def print_first_directors_movie_titles
   new_var = directors_database
-  puts new_var[0][:movies]
+  puts new_var[0][:movies][0]
 end
