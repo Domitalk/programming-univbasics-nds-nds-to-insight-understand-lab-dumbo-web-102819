@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 # Call the method directors_database to retrieve the NDS
 directors_database
-array_directors_database = directors_database
+
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
@@ -11,6 +11,7 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  array_directors_database = directors_database
   first_index = 0
   while first_index < array_directors_database.count do
     second_index = 0
