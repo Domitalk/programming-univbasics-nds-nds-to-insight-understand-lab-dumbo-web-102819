@@ -1,9 +1,8 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 # Call the method directors_database to retrieve the NDS
-the_data = directors_database
+directors_database
 
-pp the_data
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
